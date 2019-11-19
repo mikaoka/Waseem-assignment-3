@@ -1,0 +1,319 @@
+h1{
+  margin: 50px 0 20px 0;
+  font-size: 20;
+ }
+
+ 
+/* body color */
+ body {
+background: rgb(201, 201, 201);   
+overflow-x: hidden;
+ }
+
+ @import url(https://fonts.googleapis.com/css?family=Raleway);
+
+ /* header rules*/
+ header nav {
+   padding: 5px 0 20px 0;
+   text-align: left;
+   font-family: Raleway;
+   background: rgb(80, 1, 1);
+  
+ }
+.signup{
+
+  float: right; 
+  padding: 0 100px 20px 0;
+}
+ /* the nav buttons*/
+ .link-1 {
+   transition: 0.3s ease;
+   background: rgb(80, 1, 1);
+   color: #ffffff;
+   font-size: 28px;
+   text-decoration: none;
+   border-top: 4px solid rgb(80, 1, 1);
+   border-bottom: 4px solid rgb(80, 1, 1);
+   padding: 20px 40px;
+   margin: 0 20px;
+
+ }
+ /* the nav button hover effect*/
+ .link-1:hover {
+   border-top: 4px solid #ffffff;
+   border-bottom: 4px solid #ffffff;
+   padding: 6px 40px;
+
+ }
+
+  /* the purchase nav bar*/
+ .purchase-link-1 {
+  transition: 0.3s ease;
+  background: rgba(82, 11, 11, 0.26);
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solidrgb(80, 1, 1);
+  border-bottom: 4px solid rgba(80, 1, 1, 0.315);
+  padding: 20px;
+  margin: 0 20px;
+}
+ /* the purchase nav hover effect*/
+.purchase-link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 20px;
+
+}
+
+ /* footer nav links that float left*/
+ footer nav {
+   float: left;
+ }
+
+  /* footer nav items*/
+ footer nav ul li{
+
+   display: inline-block;
+   margin-left: 20px;
+   list-style: none;
+
+ }
+
+ footer nav ul li a{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   color:#ffffff;
+ }
+ /* background of the footer bar*/
+ footer{
+
+   width: 100%;
+   margin: 200px auto 0 auto;
+   background-color: #222;
+   padding: 60px 0px;
+   bottom: 5px;
+
+ }
+
+  /* index bottom three photo container*/
+ .index-colum-layout{
+
+  max-width: 800px;
+  background-color: #FFF;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+
+ }
+  /*index page images*/
+ .index-image{
+
+  position: relative;
+  
+ }
+ /*main image format*/
+.images{
+
+  padding: 0 0 30px 0;
+  background-color: brown; 
+background-size: 100px 100px;
+ margin: 0 auto 50px auto;
+
+
+}
+ /*image format for single photo in deals*/
+.deals-single{
+
+  background-color: brown; 
+  padding: 0 0 40px 0;
+  margin: 140px auto auto auto;
+
+}
+ /*main container format*/
+.main-column-layout{
+
+  max-width: 1100px;
+  margin: 110px auto 0 auto;
+  background-color: #FFF;
+  display: flex;
+  justify-content: space-around;
+flex-wrap: wrap;
+}
+
+ /*left tab bar container*/
+.leftbar{
+
+ position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+
+}
+
+/*left tab bar hover effect.*/
+.leftbar:hover{left: -15px;}
+
+/*the text inside each image on the left bar */
+.buttons1{
+position: absolute;
+top: 75px;
+left: 20px;
+font-size: 22px;
+color: cornsilk;
+}
+
+/*sizing of sidebar images */
+.sidebar-sizing{
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+/* rightbar container*/
+.rightbar{
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+/*rightbar hover effect*/
+.rightbar:hover{right: -15px;}
+
+/*the text inside each image on the right bar */
+.buttons2{
+  position: absolute;
+  top: 75px;
+  right: 40px;
+  font-size: 22px;
+  color: cornsilk;
+  }
+
+
+/*order image on left*/
+.order-image1{
+  flex-basis: 30%;
+  box-sizing: border-box;
+  margin: 150px auto 0 150px;
+  position: relative;
+}
+
+/*order image on right*/
+.order-image2{
+  flex-basis: 28%;
+  box-sizing: border-box;
+  margin: 150px 150px 0 auto;
+  position: relative;
+}
+
+/*text/link inside image of index and order page*/
+.imagebutton1{
+
+position: absolute;
+bottom: 60px;
+left: 100px;
+z-index: 0;
+font-size: 30px;
+color: white;
+
+}
+
+.imagebutton2{
+
+position: absolute;
+bottom: 60px;
+right: 100px;
+z-index: 0;
+font-size: 30px;
+color:white;
+
+ }
+/*main text coloring and centering*/
+.paragraph{
+
+color: burlywood;
+text-align: center;
+
+}
+/*contact icon container format*/
+.icon-container{
+max-width: 400px;
+margin: 40px 900px 0 auto;
+display: flex;
+justify-content: space-between;
+}
+
+/*contact icon format*/
+.icons{
+padding: 20px;
+box-sizing: border-box;
+margin-bottom: 20px;
+flex-basis: 30%;
+}
+
+/*signup/login container format*/
+.login-input-container{
+display: flex;
+justify-content: space-around;
+border-style: solid;
+margin: 90px 0 0 0;
+
+}
+
+/*signup/login left side box format*/
+.contact-box1{
+align-content: center;
+margin: 30px 0;
+}
+
+/*signup/login right side box format*/
+.contact-box2{
+align-content: center;
+margin: 30px 0;
+}
+
+/*signup/login header format*/
+.h1{
+  margin: 70px 0 20px 0;
+}
+
+/*purchase nav bar format*/
+.purchase-catagory1{
+padding: 50px 0 0 0;
+margin: auto;
+max-width: 1400px;
+align-content: center;
+align-items: center;
+display: flex;
+background: chocolate;
+justify-content: center;
+}
+
+/*purchase nav bar child format*/
+.purchase-catagory2{
+padding: 100px 0 0 0;
+margin: auto;
+max-width: 400px;
+align-content: center;
+align-items: center;
+display: flex;
+background: chocolate;
+justify-content: center;
+}
+/*purchase nav bar link format*/
+.purchase-links{
+padding: 20px 5px;
+background: rgb(245, 65, 0);
+}
+/*login2 colorbar*/
+.login2-bar{
+color: burlywood;
+}
+
