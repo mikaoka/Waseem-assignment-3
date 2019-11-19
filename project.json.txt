@@ -1,0 +1,2 @@
+created project.json file but it is empty because my website does not have any
+dependencies

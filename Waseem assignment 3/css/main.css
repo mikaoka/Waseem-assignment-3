@@ -317,3 +317,15 @@ background: rgb(245, 65, 0);
 color: burlywood;
 }
 
+/*ran out of time before i was able to do any significant work for mobile and tablet responsiveness
+but these are here anyway for future use*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+/* Smartphones (portrait) ----------- */
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+ 
+/* iPads (portrait and landscape) ----------- */
+ }
