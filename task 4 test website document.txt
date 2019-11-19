@@ -1,0 +1,42 @@
+
+student name: Shaneece Taiawa
+
+Q: check for responsive design on 3 sizes (can use google chrome):
+A: It was very nice on my desktop, but it didnt work that well on the other sizes.
+
+Q: check for accurate colours from the supplied mood board and hf wireframes:
+A: From what I was shown, the colours all look the same to me
+
+Q: check that the final website matches the website design of assignment 2:
+A: There looks to be more food posted on the original plan for the website and the menu looks slightly different
+
+Q:check that all images are loading on the testers machine or on code anywhere (ie. clone the repository):
+
+A: It worked as soon as I downloaded it which leads me to assume that was already done..
+
+Q: check for usability – is everything clear and easy to use:
+
+A:The side menus are well done, theyre fun and easy to use. 
+The food looks delicious and having shopped at the Melting Pot,
+I know the photos weren't taken there.
+
+2nd student
+
+student name: Andi Decesaris
+
+Q: check for responsive design on 3 sizes (can use google chrome):
+A: unfortunately, its not responsive. thats ok though. there's a process involved in making a website. build it for one size, add the other sizes later.
+
+Q: check for accurate colours from the supplied mood board and hf wireframes:
+A: in terms of color accuracy, it perfectly captures the original mood presented to our fictious client.
+
+Q: check that the final website matches the website design of assignment 2:
+A: the only difference that i could see was the menu isnt all uppercase as originally planned
+
+Q:check that all images are loading on the testers machine or on code anywhere (ie. clone the repository):
+
+A: that was the first thing we did 
+
+Q: check for usability – is everything clear and easy to use:
+
+A: very simple and easy to use, designed for both left handed and right handed navigation.

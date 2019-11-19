@@ -1,6 +1,8 @@
+
+/* css code validated using jigsaw.w3.org */
 h1{
   margin: 50px 0 20px 0;
-  font-size: 20;
+  font-size: 20px;
  }
 
  
@@ -25,19 +27,20 @@ overflow-x: hidden;
   float: right; 
   padding: 0 100px 20px 0;
 }
+
  /* the nav buttons*/
  .link-1 {
    transition: 0.3s ease;
-   background: rgb(80, 1, 1);
+
    color: #ffffff;
    font-size: 28px;
    text-decoration: none;
-   border-top: 4px solid rgb(80, 1, 1);
-   border-bottom: 4px solid rgb(80, 1, 1);
+   
    padding: 20px 40px;
    margin: 0 20px;
 
  }
+
  /* the nav button hover effect*/
  .link-1:hover {
    border-top: 4px solid #ffffff;
@@ -53,11 +56,10 @@ overflow-x: hidden;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solidrgb(80, 1, 1);
-  border-bottom: 4px solid rgba(80, 1, 1, 0.315);
   padding: 20px;
   margin: 0 20px;
 }
+
  /* the purchase nav hover effect*/
 .purchase-link-1:hover {
   border-top: 4px solid #ffffff;
@@ -86,6 +88,7 @@ overflow-x: hidden;
    font-size: 14px;
    color:#ffffff;
  }
+
  /* background of the footer bar*/
  footer{
 
@@ -108,12 +111,14 @@ overflow-x: hidden;
   
 
  }
+
   /*index page images*/
  .index-image{
 
   position: relative;
   
  }
+
  /*main image format*/
 .images{
 
@@ -124,6 +129,7 @@ background-size: 100px 100px;
 
 
 }
+
  /*image format for single photo in deals*/
 .deals-single{
 
@@ -132,6 +138,7 @@ background-size: 100px 100px;
   margin: 140px auto auto auto;
 
 }
+
  /*main container format*/
 .main-column-layout{
 
@@ -235,6 +242,7 @@ font-size: 30px;
 color:white;
 
  }
+
 /*main text coloring and centering*/
 .paragraph{
 
@@ -242,6 +250,7 @@ color: burlywood;
 text-align: center;
 
 }
+
 /*contact icon container format*/
 .icon-container{
 max-width: 400px;
